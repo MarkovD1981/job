@@ -1,3 +1,5 @@
+--jobbbb
+
 
 -- Data Quality Check: Memastikan tidak ada email atau ID yang duplikat   ----- проверка гарантирует отсутствие дублирующихся электронных писем или идентификаторов
 SELECT
