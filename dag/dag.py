@@ -10,6 +10,7 @@ FROM users_etl
 GROUP BY email
 HAVING COUNT(*) > 1;
 
+
 -- Audit Data: Cek apakah ada kolom krusial yang bernilai NULL/Kosong ----- Аудит данных: проверяет, есть ли важный столбец, который является нулевым / пустым
 SELECT
     COUNT(*) FILTER (WHERE first_name IS NULL) as missing_first_name,
